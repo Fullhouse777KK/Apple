@@ -1,0 +1,292 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+
+a{
+    text-decoration: none;
+}
+
+ul,ol{
+    list-style: none;
+}
+
+.container{
+    max-width: 1110px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.nav{
+    background: #282828;
+}
+
+.nav__left{
+    display: flex;
+gap: 30px;
+}
+
+.list{
+display: flex;
+align-items: center;
+gap: 30px;
+}
+
+
+
+.link{
+    color: #FFF;
+    text-align: right;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.link:hover{
+
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-thickness: 3px;
+}
+
+.nav .container{
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__right{
+
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.intro{
+    background: url(../img/Header.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 635px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 38px;
+}
+
+.intro__title{
+    color: #FFF;
+    font-family: 'Prosto One';
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 75px;
+
+}
+
+.button__text{
+color: #171718;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-transform: uppercase;
+
+}
+
+.intro__button{
+    padding: 13px 14px;
+/* width: 200px;
+height: 50px; */
+border-radius: 10px;
+background: #FFF;
+border-color: black;
+}
+
+.intro__button:hover{
+
+    border-color: red;
+    transition: .5s;
+}
+
+.main{
+
+    background: #151515;
+}
+
+
+.section__1 .container{
+
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: center;
+}
+
+.section__1{
+
+    padding-top: 30px;
+}
+
+.body__text__1{
+
+color: #FFF;
+font-size: 22px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+
+}
+
+.section__2 .container{
+
+    display: flex;
+    justify-content: space-between;
+    /* gap: 87px; */
+    align-items: center;
+}
+
+.section__3 .container{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 13px;
+}
+.body__text__2{
+
+color: #FFF;
+text-align: right;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+width: 333px;
+}
+
+.body__text__3{
+
+color: #FFF;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+width: 333px;
+}
+
+.card{
+    width: 255px;
+    background: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 6px;
+    margin-bottom: 55px;
+}
+
+.cards .container{
+
+padding-top: 79px;
+display: flex;
+justify-content: space-between;
+
+}
+
+.card__img{
+    padding: 10px 0;
+}
+
+.card__title{
+
+color: #000;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding-top: 15px;
+}
+
+
+.card__text{
+
+color: #000;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: uppercase;
+padding-bottom: 20px;
+}
+
+
+.card__button{
+
+    background: #151515;
+    margin-bottom:22px ;
+
+}
+
+.card__button:hover{
+
+    border-color: red;
+    transition: .5s;
+    border-radius: 6px;
+}
+
+.card__button__text{
+
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 12px 57px;
+
+}
+
+.footer{
+
+    background: #282828;
+}
+
+.footer .container{
+
+display: flex;
+justify-content: space-between;
+align-items: center;
+height: 215px;
+
+}
+
+.footer__list{
+display: flex;
+gap: 30px;
+padding-left: 70px;
+}
+
+.footer__link{
+
+color: #FFF;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+
+.footer__right{
+display: flex;
+    gap: 29px;
+}
+
+.footer__link:hover{
+
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-thickness: 3px;
+}

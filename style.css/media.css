@@ -1,0 +1,279 @@
+@media(max-width:1400px){
+
+.container{
+    max-width: 1400px;
+    width: 100%;
+
+
+}
+
+
+
+
+
+}
+
+
+
+@media(max-width:1100px){
+
+
+.section__1-img,
+.section__2-img,{
+
+width: 100%;
+max-width: 400px;
+}
+
+.section__3-img{
+
+max-width: 200px;
+width: 100%;
+
+
+}
+
+
+.cards .container{
+
+
+gap: 20px;
+
+
+
+
+
+}
+
+
+/* .body__text__1{
+
+width: 50%;
+
+
+} */
+
+}
+
+   
+
+
+
+
+@media(max-width:992px)
+{
+
+    
+
+}
+
+
+@media(max-width:831px){
+
+    .section__1,
+    .section__2,
+    .section__3{
+
+padding-bottom: 20px;
+
+    }
+
+
+
+
+
+
+.cards .container{
+
+
+flex-wrap: wrap;
+
+
+
+    }
+
+.body__text__1{
+
+width: 50%;
+
+
+}
+
+.section__1-img,
+.section__2-img{
+
+width: 40% ;
+
+
+    }
+
+    .section__3-img
+    {
+
+
+width: 20%;
+
+
+    }
+
+.body__line{
+
+width: 10%;
+
+}
+
+.body__text__2,
+.body__text__3{
+
+width: 20%;
+height: 50%;
+
+}
+
+
+    .intro{
+
+
+display: flex;
+flex-wrap: wrap;
+
+
+    }
+
+
+}
+
+@media(max-width:663px){
+
+
+.intro__title{
+
+display: flex;
+flex-direction: column;
+gap: 20px;
+
+}
+
+.intro__title span{
+
+    color: #FFF;
+    font-family: 'Prosto One';
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 75px;
+text-align: center;
+
+
+}
+
+
+.footer .container{
+
+flex-direction: column;
+
+
+}
+
+.footer__list{
+
+
+
+}
+
+
+}
+
+@media(max-width:576px){
+
+.body__line{
+
+display: none;
+
+}
+
+.section__1 .container{
+
+flex-direction: column;
+
+}
+
+
+
+
+
+.section__2 .container{
+
+    flex-direction: column-reverse;
+    
+    }
+
+
+.section__3 .container{
+
+flex-direction: column;
+
+
+}
+
+.section__1-img,
+.section__2-img{
+
+width: 50%;
+height: 50%;
+padding: 20px 0;
+
+
+}
+
+
+
+
+
+.section__3-img{
+
+    width: 50%;
+    height: 50%;
+padding: 10px 0;
+
+
+}
+
+.body__text__1,
+.body__text__2,
+.body__text__3{
+
+text-align: center;
+
+
+}
+
+.cards .container{
+
+flex-direction: column;
+flex-wrap: nowrap;
+justify-content: center;
+align-items: center;
+
+
+}
+
+}
+
+@media(max-width:475px){
+
+
+    .nav .container,
+    .nav__left{
+
+flex-direction: column;
+align-items: center;
+row-gap: 20px;
+
+    }
+
+.intro__title{
+
+
+    }
+}
